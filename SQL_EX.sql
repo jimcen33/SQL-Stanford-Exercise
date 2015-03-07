@@ -108,7 +108,7 @@ WHERE sub2.mID=Movie.mID AND Movie.year>'1980'
 
 SELECT DISTINCT name
 FROM Reviewer,Rating,Movie
-WHERE Reviewer.rID=Rating.rID AND Movie.mID=Rating.mID AND title='Gone with the Wind’
+WHERE Reviewer.rID=Rating.rID AND Movie.mID=Rating.mID AND title='Gone with the Wind'
 
 --11 For any rating where the reviewer is the same as the director of the movie, return the reviewer name, movie title, and number of stars.
 
